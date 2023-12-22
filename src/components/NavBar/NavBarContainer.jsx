@@ -7,7 +7,7 @@ const NavbarContainer = ({ children }) => {
                 <a href="/" className="flex items-center space-x-3">
                     <img src={logo} alt="Logo" />
                 </a>
-                <div className="md:block w-auto" id="navbar-default">
+                <div className="w-auto" id="navbar-default">
                     <ul className="flex flex-row space-x-8">
                         {children}
                     </ul>
